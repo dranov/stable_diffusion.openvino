@@ -17,6 +17,13 @@ Implementation of Text-To-Image generation using Stable Diffusion on Intel CPU.
 pip install -r requirements.txt
 ```
 
+## Install using Docker
+
+```bash
+docker build -t stable-diffusion .
+docker run -it --rm stable-diffusion
+```
+
 ## Generate image from text description
 
 ```bash
