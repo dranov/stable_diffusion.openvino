@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ```bash
 docker build -t stable-diffusion .
-docker run -it --rm stable-diffusion
+docker run -it -v `pwd`:/host --rm stable-diffusion
 ```
 
 ## Generate image from text description
